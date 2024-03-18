@@ -10,13 +10,13 @@ public class MemberServiceRunner2 extends MemberService2{
 
 				//메소드 호출
 
-				boolean result = memberService2.login("hong", "1234");
+				boolean result = memberService2.login("ezen", "12345");
 
 				if (result) {
 
 					System.out.println("로그인 되었습니다.");
 
-					memberService2.logout("hong");
+					memberService2.logout("ezen");
 
 				}
 
